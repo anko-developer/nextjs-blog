@@ -1,5 +1,5 @@
 import Image from "next/image";
 
 export default function Home() {
-  return <main className="bg-red-400">Main</main>;
+  return <section className="bg-red-400">Main</section>;
 }
