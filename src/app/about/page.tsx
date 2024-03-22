@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
+import profileImage from "../../../public/images/profile.jpg";
 
 export default function AboutPage() {
   return (
     <div className="flex flex-col justify-center items-center">
       <Image
-        className="rounded-full mx-auto"
-        src="https://picsum.photos/id/237/100/100"
+        className="object-cover rounded-full mx-auto"
+        src={profileImage}
         width="100"
         height="100"
         alt="프로필"
