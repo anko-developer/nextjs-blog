@@ -1,4 +1,4 @@
-import { getNonFeaturePosts } from "@/api/posts";
+import { getNonFeaturePosts } from "@/service/posts";
 import MultiCarousel from "./MultiCarousel";
 import PostCard from "./PostCard";
 
