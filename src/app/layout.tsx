@@ -7,8 +7,14 @@ import Footer from "@/components/Footer";
 const sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Anko Blog",
-  description: "Anko Blog",
+  title: {
+    default: 'Anko Blog',
+    template: 'Anko Blog | %s'
+  },
+  description: "프론트엔드 개발자 Anko의 블로그",
+  icons: {
+    icon: '/favicon.ico'
+  }
 };
 
 export default function RootLayout({
